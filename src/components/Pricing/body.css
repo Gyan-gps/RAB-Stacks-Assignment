@@ -1,0 +1,79 @@
+.card{
+    min-width: 350px;
+    width: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0,0.125);
+    border-radius: 0.625rem;
+    margin: 15px;
+}
+
+.price-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.p-img{
+    margin-top: 20px;
+}
+
+.i-flex{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.i-flex>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    /* line-height: 14px; */
+    color: #0B132A;
+}
+
+.mb-3{
+    font-size: 2rem;
+
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.mt-50{
+    margin-top: 30px;
+}
+.my-5{
+    margin-bottom: 20px;
+}
+.text-900{
+    color: #4F5665 ;
+}
+
+.btn{
+    font-size: 1rem;
+    border: 1px solid #F53838;
+    color: #F53838;
+    background-color: #fff;
+    padding: 0.2rem 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    /* line-height: 1.5; */
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #F53838;
+}

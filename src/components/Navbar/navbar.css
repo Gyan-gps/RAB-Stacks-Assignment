@@ -1,0 +1,124 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sticky{
+  line-height: 52px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    padding-left: 50px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 60%);
+  font-size: larger;
+}
+a:hover{
+  color: green;
+}
+ul{
+    list-style-type: none;
+}
+.features{
+    width:40%;
+}
+
+.features>ul::first-line{
+    color:red;
+}
+
+.form>button{
+    font-size: 1.2rem;
+    color: #F53838;
+    background-color: #fff;
+    border:1px solid #F53838;
+    padding: 0.8rem 3rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.form>button:hover{
+    background-color: #F53838;
+    color: #fff;
+}
+
+/* toggle */
+
+.toggle{
+    display: none;
+}
+#open{
+    display: block;
+}
+
+  
+  .toggle-btn {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  @media only screen and (max-width: 900px) {
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 10px;
+    }
+    .navbar a {
+      width: 70px;
+    }
+    #close{
+        display: none;
+    }
+    .disable{
+        display: none;
+    }
+    .toggle,.features ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .features{
+        width: 100%;
+    }
+  }
+  
+  /* @media only screen and (max-width: 600px) {
+    .toggleButton {
+      display: flex;
+    }
+    #close a {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .toggleButton {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  
+    #open {
+      height: 100px;
+    }
+  
+    #open .links {
+      flex-direction: row;
+    }
+  } */
+

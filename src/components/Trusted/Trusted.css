@@ -1,0 +1,130 @@
+
+.card-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+}
+.Card{
+    max-width: 400px;
+    width: 100%;
+    border: #dddddd 2px solid;
+    margin-top: 10px;
+}
+
+.p{
+    padding: 40px;
+}
+/* @media screen and (max-width:600px){
+    .card{
+        width:100%;
+    }
+} */
+/* @media screen and (max-width: 992px) {
+    .card{
+        width:100%;
+    }
+} */
+
+.ellipse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+.detail{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sentence{
+    align-items: flex-start;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* controls  */
+
+.controls{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls-flex{
+    max-width: 990px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrows{
+    display: flex;
+}
+
+.arrows img{
+    margin-top: 4px;
+}
+
+.arrow-left{
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.arrow-left:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .arrow-left:hover{
+    background-color: #f53838;
+    color: #dddddd;
+} */
+
+.arrow-right{
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dots{
+    display: flex;
+    align-items: center;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    border: #f53838 1px solid;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.active{
+    background-color: #f53838;
+    width: 40px;
+    height: 12px;
+    border-radius: 6px;
+}
+
+.sentence{
+    text-align: left;
+}
